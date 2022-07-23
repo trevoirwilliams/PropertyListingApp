@@ -4,7 +4,7 @@
     {
         public string Address { get; set; }
         public decimal Cost { get; set; }
-        public string? Description{ get; set; }
+        public string Description{ get; set; }
 
         public City City { get; set; }
         public int CityId { get; set; }
@@ -20,5 +20,7 @@
 
         public ApiUser ApiUser { get; set; }
         public string ApiUserId { get; set; }
+
+        public List<PropertyFeature> PropertyFeatures { get; set; }
     }
 }
